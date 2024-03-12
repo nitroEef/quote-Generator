@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="quote.css">
-    <script src="https://kit.fontawesome.com/d8a91c391b.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Qoute</title>
+    <script
+      src="https://kit.fontawesome.com/7802e11ce9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="quote.css" />
+  </head>
+  <body>
     <div class="quoteContainer" id="quote-container">
-        <!-- quote  -->
-        <div class="quoteText">
-            <i class="fa-solid fa-quote-left"></i>
-            <span id="quote">
-                Lorem ipsum dolor sit, 
-                amet consectetur adipisicing elit. Vero eos, veniam quo ipsam 
-                voluptates pariatur tempora, minus sit nobis deleniti, aperiam debitis!
-            </span>
-        </div>
+      <!-- Qoutes -->
+      <div class="quoteText">
+        <i class="fa-solid fa-quote-left"></i>
+        <span id="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+          autem assumenda ea debitis obcaecati quis dolores id totam nihil
+          repellendus.</span>
+      </div>
 
-        <!-- author  -->
-        
+      <!-- Author -->
+      <div class="quoteAuthor">
+        <span id="author">nitro Eef</span>
+      </div>
+
+      <!-- Button -->
+
+      <div class="buttonContainer">
+        <button class="twitterButton" id="twitter" title="Tweet this">
+            <i class="fa-brands fa-x-twitter"></i>
+        </button>
+
+        <button id="new-qoute">New Qoute</button>
+      </div>
     </div>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
