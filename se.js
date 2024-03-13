@@ -11,3 +11,5 @@ const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
 //get quote from api
+
+// https://api.quotable.io/random
