@@ -55,7 +55,7 @@ function newQuote() {
     authorName.textContent = quote.author
     quoteText.textContent = quote.text
 
-    complete()
+    
 }
 
 async function getQuote() {
