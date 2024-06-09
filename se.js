@@ -28,6 +28,7 @@ const hideLoading = () => {
     }
 }
 
+
 const getQuote = async() => {
 
     showLoading()
@@ -58,6 +59,7 @@ const getQuote = async() => {
 }
 //
 
+
 // Tweet
 const tweetQuote = () => {
     const quote  =  quoteText.innerText;
@@ -66,6 +68,14 @@ const tweetQuote = () => {
     const twitterUrl = `https://twitter.com/intent/tweet?text=${quote}-${author}`;
 
     window.open(twitterUrl, "_blank")
+    // In short, this code opens a new browser tab/window with the Twitter URL
+    //  provided in the variable twitterUrl.
+
+
+
+
+
+
 }
 
 // Event Listeners
